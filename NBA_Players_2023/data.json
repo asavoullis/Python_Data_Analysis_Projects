@@ -1,0 +1,103 @@
+{
+   "Lakers":[
+      {
+         "Name":"Patrick Beverly",
+         "Height":73,
+         "Weight":180
+      },
+      {
+         "Name":"Lonnie Walker",
+         "Height":76,
+         "Weight":204
+      },
+      {
+         "Name":"Troy Brown",
+         "Height":78,
+         "Weight":215
+      },
+      {
+         "Name":"Lebron James",
+         "Height":81,
+         "Weight":250
+      },
+      {
+         "Name":"Anthony Davis",
+         "Height":82,
+         "Weight":253
+      }
+   ],
+   "Golden State Warriors":[
+      {
+         "Name":"Stephen Curry",
+         "Height":74,
+         "Weight":185
+      },
+      {
+         "Name":"Klay Thompson",
+         "Height":78,
+         "Weight":220
+      },
+      {
+         "Name":"Andrew Wiggins",
+         "Height":79,
+         "Weight":197
+      },
+      {
+         "Name":"Draymond Green",
+         "Height":78,
+         "Weight":230
+      },
+      {
+         "Name":"Kevon Looney",
+         "Height":81,
+         "Weight":222
+      }
+   ],
+   "Top 10 Highest Paid NBA Players":[
+      {
+         "Name":"Lebron James",
+         "Height":81,
+         "Weight":250
+      },
+      {
+         "Name":"Russell Westbrook",
+         "Height":75,
+         "Weight":200
+      },
+      {
+         "Name":"Kevin Durant",
+         "Height":82,
+         "Weight":240
+      },
+ 	{
+         "Name":"James Harden",
+         "Height":77,
+         "Weight":220
+      },
+      {
+         "Name":"Stephen Curry",
+         "Height":74,
+         "Weight":185
+      },
+      {
+         "Name":"Damian Lillard",
+         "Height":74,
+         "Weight":194
+      },
+      {
+         "Name":"Paul George",
+         "Height":80,
+         "Weight":220
+      },
+      {
+         "Name":"Giannis Antetokounmpo",
+         "Height":83,
+         "Weight":243
+      },
+      {
+         "Name":"Klay Thompson",
+         "Height":78,
+         "Weight":220
+      }
+   ]
+}

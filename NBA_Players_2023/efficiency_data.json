@@ -1,0 +1,217 @@
+{
+   "Lakers":[
+      {
+         "Name":"Patrick Beverly",
+         "PTS":533,
+         "REB":240,
+	 "AST":268,
+	 "STL":67,
+	 "BLK":52,
+	 "FGM":259,
+	 "FTM": 37,
+	 "TO":73
+      },
+      {
+         "Name":"Lonnie Walker",
+          "PTS":849,
+         "REB":181,
+	 "AST":152,
+	 "STL":44,
+	 "BLK":19,
+	 "FGM":453,
+	 "FTM": 32,
+	 "TO":71
+      },
+      {
+         "Name":"Troy Brown",
+          "PTS":283,
+         "REB":203,
+	 "AST":66,
+	 "STL":36,
+	 "BLK":5,
+	 "FGM":150,
+	 "FTM": 6,
+	 "TO":26
+      },
+      {
+         "Name":"Lebron James",
+          "PTS":1695,
+         "REB":459,
+	 "AST":349,
+	 "STL":73,
+	 "BLK":59,
+	 "FGM":581,
+	 "FTM": 82,
+	 "TO":196
+      },
+      {
+         "Name":"Anthony Davis",
+        "PTS":927,
+         "REB":394,
+	 "AST":122,
+	 "STL":49,
+	 "BLK":90,
+	 "FGM":325,
+	 "FTM": 70,
+	 "TO":82
+      }
+   ],
+   "Golden State Warriors":[
+      {
+         "Name":"Stephen Curry",
+          "PTS":1630,
+         "REB":335,
+	 "AST":404,
+	 "STL":85,
+	 "BLK":23,
+	 "FGM":689,
+	 "FTM": 23,
+	 "TO":206
+      },
+      {
+         "Name":"Klay Thompson",
+          "PTS":652,
+         "REB":125,
+	 "AST":88,
+	 "STL":16,
+	 "BLK": 17,
+	 "FGM":327,
+	 "FTM": 5,
+ 	 "TO":43
+      },
+      {
+         "Name":"Andrew Wiggins",
+          "PTS":1256,
+         "REB":325,
+	 "AST":161,
+	 "STL":76,
+ 	 "BLK":51,
+	 "FGM":544,
+	 "FTM": 86,
+	 "TO":111
+      },
+      {
+         "Name":"Draymond Green",
+          "PTS":346,
+         "REB":336,
+	 "AST":320,
+	 "STL":61,
+	 "BLK":50,
+	 "FGM":122,
+	 "FTM": 31,
+	 "TO":139
+      },
+      {
+         "Name":"Kevon Looney",
+          "PTS":491,
+         "REB":596,
+	 "AST":165,
+	 "STL":50,
+	 "BLK":52,
+	 "FGM":156,
+	 "FTM": 50,
+	 "TO":67
+      }
+   ],
+   "Top 10 Highest Paid NBA Players":[
+      {
+         "Name":"Lebron James",
+          "PTS":1695,
+         "REB":459,
+	 "AST":349,
+	 "STL":73,
+	 "BLK":59,
+	 "FGM":581,
+	 "FTM": 82,
+	 "TO":196
+      },
+      {
+         "Name":"Russell Westbrook",
+          "PTS":1441,
+         "REB":580,
+	 "AST":550,
+	 "STL":75,
+	 "BLK":20,
+	 "FGM":685,
+	 "FTM": 133,
+	 "TO":295
+      },
+      {
+         "Name":"Kevin Durant",
+          "PTS":1643,
+         "REB":407,
+	 "AST":351,
+	 "STL":48,
+	 "BLK":52,
+	 "FGM":537,
+	 "FTM": 37,
+	 "TO":123
+      },
+ 	{
+         "Name":"James Harden",
+          "PTS":1432,
+         "REB":500,
+	 "AST":667,
+	 "STL":82,
+	 "BLK":36,
+	 "FGM":585,
+	 "FTM": 66,
+	 "TO":284
+      },
+      {
+         "Name":"Stephen Curry",
+         "PTS":1630,
+         "REB":335,
+	 "AST":404,
+	 "STL":85,
+	 "BLK":23,
+	 "FGM":689,
+	 "FTM": 23,
+	 "TO":206
+      },
+      {
+         "Name":"Damian Lillard",
+          "PTS":695,
+         "REB":120,
+	 "AST":212,
+	 "STL":17,
+  	 "BLK":11,
+	 "FGM":330,
+	 "FTM": 22,
+	 "TO": 83
+      },
+      {
+         "Name":"Paul George",
+          "PTS":754,
+         "REB":213,
+	 "AST":176,
+	 "STL":67,
+	 "BLK":13,
+	 "FGM":368,
+	 "FTM": 21,
+	 "TO":126
+      },
+      {
+         "Name":"Giannis Antetokounmpo",
+          "PTS":2002,
+         "REB":778,
+	 "AST":388,
+	 "STL":72,
+	 "BLK":91,
+	 "FGM":556,
+	 "FTM": 213,
+	 "TO":219
+      },
+      {
+         "Name":"Klay Thompson",
+   	 "PTS":652,
+         "REB":125,
+	 "AST":88,
+	 "STL":16,
+	 "BLK": 17,
+	 "FGM":327,
+	 "FTM": 5,
+ 	 "TO":43
+      }
+   ]
+}
