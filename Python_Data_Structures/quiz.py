@@ -38,6 +38,14 @@ for rawstring in wd_set:
     word_dict[word] = definition
 
 
+# Score Initialization
+score = 0
+
+
+print("\n     Weclome to the Quiz Game!")
+print("Guess the meaning of each word \n")
+print("--------------------------------")
+
 # we will only get the keys - words with this list constructor, not the definitions - values 
 while True:
     wd_list = list(word_dict)
@@ -48,8 +56,7 @@ while True:
     random.shuffle(choice_list)
 
 
-    print("Weclome to the Quiz Game! \n"
-    print("--------------------------------")
+    
     print(word)
     print("--------------------------------")
     for idx, choice in enumerate(choice_list):
@@ -61,15 +68,22 @@ while True:
         try:
             choice = int(input("Enter 1, 2, 3, or 4; 0 to exit: "))
             if choice == 0:
-                exit(0)
+                break
             elif 1 <= choice <= 4:
                 break
             else:
                 print("Invalid input. Please enter a valid choice (0, 1, 2, 3, or 4).")
         except ValueError:
             print("Invalid input. Please enter a valid choice (0, 1, 2, 3, or 4).")
-    
-    if choice_list[choice - 1] == definition:
-        print("\nCorrect!\n")
+
+    if choice == 0:
+        break
+    elif choice_list[choice - 1] == definition:
+        score += 1
+        print("\nCorrect!, Score: ",score, "\n")
     else:
-        print("\nIncorrect!\n")
+        print("\nIncorrect!, Score: ",score, "\n")
+
+# Display the final score
+print("Quiz Ended")
+print("Your Score:", score)
