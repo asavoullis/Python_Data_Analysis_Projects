@@ -33,24 +33,27 @@ def play_mode_with_lives(word_dict, lives):
                 elif 1 <= choice <= 4:
                     break
                 else:
+                    print("\n")
                     print("Invalid input. Please enter a valid choice (0, 1, 2, 3, or 4).")
             except ValueError:
+                print("\n")
                 print("Invalid input. Please enter a valid choice (0, 1, 2, 3, or 4).")
 
         if choice == 0:
             break
         elif choice_list[choice - 1] == definition:
             score += 1
-            print("\nCorrect!, Score: ", score, "\n")
+            print("\nCorrect!, You have", lives, "lives remaining.  Your score is:", score, "\n")
         else:
             lives -= 1
-            print("\nIncorrect! You have", lives, "lives remaining. Score:", score, "\n")
+            print("\nIncorrect! You have", lives, "lives remaining.  Your score is:", score, "\n")
 
     print("Quiz Ended")
     print("Your Final Score:", score)
 
 def play_mode_without_lives(word_dict):
     score = 0
+    word_number = 0
     while True:
         wd_list = list(word_dict)
         choice_list = []
@@ -60,6 +63,7 @@ def play_mode_without_lives(word_dict):
         random.shuffle(choice_list)
 
         print(word)
+        word_number += 1
         print("--------------------------------")
         for idx, choice in enumerate(choice_list):
             print(idx+1, choice)
@@ -72,17 +76,22 @@ def play_mode_without_lives(word_dict):
                 elif 1 <= choice <= 4:
                     break
                 else:
+                    print("\n")
                     print("Invalid input. Please enter a valid choice (0, 1, 2, 3, or 4).")
             except ValueError:
+                print("\n")
                 print("Invalid input. Please enter a valid choice (0, 1, 2, 3, or 4).")
 
         if choice == 0:
             break
         elif choice_list[choice - 1] == definition:
             score += 1
-            print("\nCorrect!, Score: ", score, "\n")
+            print("\nCorrect!")
+            print("(Score:", score, "    Word Number:", word_number, "\n")
         else:
-            print("\nIncorrect!, Score: ", score, "\n")
+            print("\nIncorrect!") 
+            print("Score:", score,  "    Word Number:", word_number, "\n")
+
 
     print("Quiz Ended")
     print("Your Score:", score)
